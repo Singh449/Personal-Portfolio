@@ -1048,6 +1048,7 @@ html[data-theme="dark"] .chip:hover {
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
   z-index: 60;
+  pointer-events: none;
 }
 
 .chat-panel {
@@ -1068,15 +1069,26 @@ html[data-theme="dark"] .chip:hover {
   transform: translateX(24px);
   opacity: 0;
   transition: transform 260ms var(--easing), opacity 260ms var(--easing);
+  pointer-events: none;
 }
 
 html[data-theme="dark"] .chat-panel {
   background: var(--surface);
 }
 
+.chat-overlay[hidden],
+.chat-panel[hidden] {
+  display: none !important;
+}
+
 body.chat-open .chat-panel {
   transform: translateX(0);
   opacity: 1;
+  pointer-events: auto;
+}
+
+body.chat-open .chat-overlay {
+  pointer-events: auto;
 }
 
 .chat-header {
