@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f4f4f0" />
+    <meta name="theme-color" content="#ffffff" />
 
     <title>Harkunwar Singh — Software Engineer</title>
     <meta
@@ -28,7 +28,7 @@
     <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="#home" aria-label="Harkunwar Singh, home">
-          <span class="brand-symbol">H</span>
+
           <span>Harkunwar Singh</span>
         </a>
 
@@ -47,9 +47,8 @@
           >
             <span aria-hidden="true"></span>
           </button>
-          <a class="header-contact" href="mailto:singhharkunwar87@gmail.com">
+          <a class="header-contact" href="#contact">
             Get in touch
-            <span aria-hidden="true">↗</span>
           </a>
         </div>
       </div>
@@ -57,93 +56,21 @@
 
     <main id="main">
       <section id="home" class="hero">
-        <div class="container hero-grid">
+        <div class="container hero-layout">
           <div class="hero-copy">
-            <div class="availability">
-              <span aria-hidden="true"></span>
-              Available immediately for full-time roles
-            </div>
-
-            <p class="eyebrow">Software engineer · Hamilton, Ontario</p>
-            <h1>
-              I turn complex problems into
-              <em>reliable software.</em>
-            </h1>
-            <p class="hero-intro">
-              McMaster Computer Science graduate building production-style
-              full-stack, backend, data, and AI systems.
-            </p>
-
-            <div class="hero-buttons">
-              <a class="button button-dark" href="#projects">
-                Explore my work
-                <span aria-hidden="true">↓</span>
-              </a>
-              <a
-                class="button button-outline"
-                href="images/resume.pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
-                View résumé
-                <span aria-hidden="true">↗</span>
-              </a>
-            </div>
-
-            <div class="hero-socials" aria-label="External profiles">
-              <a href="mailto:singhharkunwar87@gmail.com">Email</a>
-              <a href="https://github.com/Singh449" target="_blank" rel="noreferrer">GitHub</a>
-              <a
-                href="https://www.linkedin.com/in/harkunwar449/"
-                target="_blank"
-                rel="noreferrer"
-              >LinkedIn</a>
-            </div>
+          <p class="hero-role">Hi, I’m Harkunwar.</p>
+          <h1>Software engineer.<br>Thoughtful builder.</h1>
+          <p class="hero-intro">I build full-stack applications, data systems, and local AI.<br class="desktop-break"> McMaster Computer Science graduate based in Hamilton, Ontario.</p>
+          <div class="hero-buttons">
+            <a class="button button-dark" href="#projects">Explore my work</a>
+            <a class="button button-outline" href="images/resume.pdf" target="_blank" rel="noreferrer">View résumé</a>
           </div>
-
-          <div class="hero-visual" aria-label="Portrait and professional summary">
-            <div class="portrait-frame">
-              <img src="images/myself.jpg" alt="Harkunwar Singh" />
-              <div class="portrait-label">
-                <span>Software Engineer</span>
-                <strong>Harkunwar Singh</strong>
-              </div>
-            </div>
-
-            <div class="visual-note note-top">
-              <span>Focus</span>
-              <strong>Software · Data · AI</strong>
-            </div>
-
-            <div class="visual-note note-bottom">
-              <strong>4.0</strong>
-              <span>Final-year GPA</span>
-            </div>
+          <p class="availability"><span aria-hidden="true"></span>Available for full-time roles</p>
           </div>
-        </div>
-
-        <div class="container signal-row">
-          <article>
-            <span>01</span>
-            <div>
-              <strong>B.Sc. Computer Science</strong>
-              <p>McMaster University · April 2026</p>
-            </div>
-          </article>
-          <article>
-            <span>02</span>
-            <div>
-              <strong>One-year government co-op</strong>
-              <p>Ontario Ministry of Transportation</p>
-            </div>
-          </article>
-          <article>
-            <span>03</span>
-            <div>
-              <strong>Open to opportunities</strong>
-              <p>Software Engineering · Data · AI</p>
-            </div>
-          </article>
+          <figure class="hero-portrait">
+            <img src="images/myself.jpg" alt="Harkunwar Singh" width="1779" height="1712" fetchpriority="high" />
+            <figcaption>Harkunwar Singh <span>Software, data &amp; AI</span></figcaption>
+          </figure>
         </div>
       </section>
 
@@ -151,22 +78,29 @@
         <div class="container">
           <div class="section-title-row">
             <div>
-              <p class="eyebrow">Selected projects</p>
-              <h2>Built to work,<br />not just to demo.</h2>
+
+              <h2>Selected work.</h2>
             </div>
             <p class="section-lede">
-              Four projects that show how I approach product decisions,
-              backend architecture, data, machine learning, and the details
-              that make software dependable.
+              From private document search to mobile machine learning.
+              A closer look at what I build.
             </p>
           </div>
 
           <div class="project-grid">
-            <article class="project-card">
+            <article class="project-card quill-story">
+              <div class="quill-scroll-track">
+                <div class="quill-scene">
+                  <div class="quill-scene-heading">
+                    <p>Quill</p>
+                    <h3>Ask. Find. Understand.</h3>
+                    <p class="quill-scene-intro">Answers from your documents. Entirely on your device.</p>
+                  </div>
               <div class="project-preview quill-preview" aria-hidden="true">
+                <div class="quill-window">
                 <div class="preview-toolbar">
                   <span>Quill</span>
-                  <small>Local · Private</small>
+                  <small>Runs on your device</small>
                 </div>
                 <div class="quill-interface">
                   <aside>
@@ -182,18 +116,29 @@
                     <p class="mini-question">What are the main findings?</p>
                     <div class="mini-answer">
                       <b>Q</b>
-                      <p>The study identifies three key findings… <span>[Page 7]</span></p>
+                      <p>The study identifies three key findings, supported by the document’s results.<span class="quill-citation">Source: research.pdf · Page 7</span></p>
                     </div>
                   </div>
                 </div>
               </div>
-
-              <div class="project-content">
+                </div>
+                  <div class="quill-scene-footer">
+                    <div class="quill-chapters" aria-hidden="true">
+                      <span class="quill-chapter chapter-ask">Ask a question.</span>
+                      <span class="quill-chapter chapter-answer">Find an answer.</span>
+                      <span class="quill-chapter chapter-source">See the source.</span>
+                    </div>
+                    <a class="quill-skip" href="#quill-details">Skip to project details</a>
+                  </div>
+                  <div class="quill-progress" aria-hidden="true"><span></span></div>
+                </div>
+              </div>
+              <div class="project-content" id="quill-details">
                 <div class="project-meta">
-                  <span>01</span>
-                  <span>Local AI · RAG</span>
+                  <span>Private document search</span>
                 </div>
                 <h3>Quill</h3>
+                <p class="project-headline">Your documents.<br>Your answers. All local.</p>
                 <p>
                   Chat with any PDF using local LLMs. Quill retrieves relevant
                   context and returns grounded answers with page-level citations,
@@ -211,33 +156,70 @@
                   href="https://github.com/Singh449/Quill"
                   target="_blank"
                   rel="noreferrer"
-                >View repository <span>↗</span></a>
+                >View repository</a>
               </div>
             </article>
 
-            <article class="project-card">
-              <div class="project-preview nexderm-preview" aria-hidden="true">
-                <div class="phone phone-left">
-                  <span class="phone-notch"></span>
-                  <small>New scan</small>
-                  <div class="lesion-scan"><span></span></div>
-                  <b>Position the lesion</b>
-                </div>
-                <div class="phone phone-right">
-                  <span class="phone-notch"></span>
-                  <small>Analysis</small>
-                  <div class="result-ring">70%</div>
-                  <b>Review recommended</b>
-                  <i></i><i></i><i></i>
+            <article class="project-card nexderm-story">
+              <div class="nexderm-scroll-track">
+                <div class="nexderm-scene">
+                  <div class="nexderm-scene-heading">
+                    <p>NexDerm</p>
+                    <h3>A scan becomes a clear next step.</h3>
+                    <p>Capture, analyze, and share a review from one mobile workflow.</p>
+                  </div>
+
+                  <div class="nexderm-preview" aria-hidden="true">
+                    <div class="phone phone-left">
+                      <span class="phone-notch"></span>
+                      <div class="phone-status"><span>9:41</span><span>● ●</span></div>
+                      <small>New scan</small>
+                      <div class="lesion-scan">
+                        <span></span>
+                        <i class="scan-line"></i>
+                      </div>
+                      <b>Position the lesion</b>
+                      <div class="capture-button"><span></span></div>
+                    </div>
+
+                    <div class="phone phone-right">
+                      <span class="phone-notch"></span>
+                      <div class="phone-status"><span>9:42</span><span>● ●</span></div>
+                      <small>Analysis</small>
+                      <div class="result-ring"><span>70%</span></div>
+                      <b>Review recommended</b>
+                      <i></i><i></i><i></i>
+                      <span class="analysis-ready">Analysis complete</span>
+                    </div>
+
+                    <div class="doctor-review">
+                      <span class="doctor-avatar">DR</span>
+                      <div>
+                        <small>Doctor review</small>
+                        <strong>Report ready to share</strong>
+                      </div>
+                      <span class="review-check">✓</span>
+                    </div>
+                  </div>
+
+                  <div class="nexderm-scene-footer">
+                    <div class="nexderm-chapters" aria-hidden="true">
+                      <span class="nexderm-chapter nexderm-capture">Capture with guidance.</span>
+                      <span class="nexderm-chapter nexderm-analyze">Analyze with an ML ensemble.</span>
+                      <span class="nexderm-chapter nexderm-review">Send a report for review.</span>
+                    </div>
+                    <a class="nexderm-skip" href="#nexderm-details">Skip to project details</a>
+                  </div>
+                  <div class="nexderm-progress" aria-hidden="true"><span></span></div>
                 </div>
               </div>
 
-              <div class="project-content">
+              <div class="project-content" id="nexderm-details">
                 <div class="project-meta">
-                  <span>02</span>
-                  <span>Mobile · Full-stack · ML</span>
+                  <span>Mobile machine learning</span>
                 </div>
                 <h3>NexDerm</h3>
+                <p class="project-headline">From a scan<br>to a second opinion.</p>
                 <p>
                   Cross-platform skin lesion screening with image capture,
                   ML predictions, doctor review, PDF reporting, and secure
@@ -255,7 +237,7 @@
                   href="https://github.com/NexSpend/NexDerm"
                   target="_blank"
                   rel="noreferrer"
-                >View repository <span>↗</span></a>
+                >View repository</a>
               </div>
             </article>
 
@@ -279,10 +261,10 @@
 
               <div class="project-content">
                 <div class="project-meta">
-                  <span>03</span>
-                  <span>NLP · Explainable scoring</span>
+                  <span>Explainable NLP</span>
                 </div>
                 <h3>AI Resume-Job Matcher</h3>
+                <p class="project-headline">Find the fit.<br>Understand the gaps.</p>
                 <p>
                   An explainable NLP system that compares resumes with software
                   roles, returning a match score, matched skills, missing keywords,
@@ -300,7 +282,7 @@
                   href="https://github.com/Singh449/AI-Resume-Job-Matcher"
                   target="_blank"
                   rel="noreferrer"
-                >View repository <span>↗</span></a>
+                >View repository</a>
               </div>
             </article>
 
@@ -324,10 +306,10 @@
 
               <div class="project-content">
                 <div class="project-meta">
-                  <span>04</span>
-                  <span>Web · Live APIs</span>
+                  <span>Live weather</span>
                 </div>
                 <h3>WeatherIQ</h3>
+                <p class="project-headline">A clearer view<br>of the day ahead.</p>
                 <p>
                   A cinematic, location-aware weather application with global
                   search, timezone-correct forecasts, unit controls, and custom
@@ -345,7 +327,7 @@
                   href="https://github.com/Singh449/WeatherIQ"
                   target="_blank"
                   rel="noreferrer"
-                >View repository <span>↗</span></a>
+                >View repository</a>
               </div>
             </article>
           </div>
@@ -356,8 +338,8 @@
         <div class="container">
           <div class="section-title-row compact-title-row">
             <div>
-              <p class="eyebrow">Professional experience</p>
-              <h2>Work that reached production.</h2>
+
+              <h2>Experience that matters.</h2>
             </div>
           </div>
 
@@ -403,41 +385,39 @@
       <section id="profile" class="section profile-section">
         <div class="container profile-grid">
           <div class="profile-intro">
-            <p class="eyebrow">Technical profile</p>
-            <h2>Broad enough to build.<br />Focused enough to ship.</h2>
+            <p class="profile-location">Based in Hamilton, Ontario</p>
+
+            <h2>Across the stack.
+              From idea to implementation.</h2>
             <p>
               I work comfortably across application code, APIs, data,
               infrastructure, and applied machine learning.
             </p>
             <a class="text-link" href="images/resume.pdf" target="_blank" rel="noreferrer">
-              Full résumé <span>↗</span>
+              Full résumé
             </a>
           </div>
 
           <div class="skills-list">
             <article>
-              <span>01</span>
               <div>
                 <h3>Languages</h3>
                 <p>Python, Java, C/C++, JavaScript, TypeScript, SQL, Assembly, HTML, CSS</p>
               </div>
             </article>
             <article>
-              <span>02</span>
               <div>
                 <h3>Frameworks &amp; libraries</h3>
                 <p>React Native, Expo, Node.js, FastAPI, Streamlit, LangChain, PyTorch, Scikit-learn</p>
               </div>
             </article>
             <article>
-              <span>03</span>
               <div>
                 <h3>Data &amp; cloud</h3>
                 <p>PostgreSQL, MySQL, MongoDB, ChromaDB, Supabase, AWS S3, Microsoft Azure</p>
               </div>
             </article>
             <article>
-              <span>04</span>
               <div>
                 <h3>Engineering</h3>
                 <p>REST APIs, RAG, LLM integration, machine learning, QA testing, Git, Docker, Linux</p>
@@ -450,7 +430,7 @@
       <section class="education-section">
         <div class="container education-grid">
           <div>
-            <p class="eyebrow">Education</p>
+            <p class="education-label">Education</p>
             <h2>McMaster University</h2>
             <p>Honours B.Sc., Computer Science (Co-op)</p>
             <span>September 2021 — April 2026</span>
@@ -471,21 +451,27 @@
         </div>
       </section>
 
-      <section class="contact-section">
+      <section id="contact" class="contact-section">
         <div class="container contact-grid">
-          <div>
-            <p class="eyebrow">Available immediately</p>
-            <h2>Looking for a software engineer?</h2>
+          <div class="contact-heading">
+            <p class="contact-availability"><span aria-hidden="true"></span>Available for full-time roles</p>
+            <h2>Let’s build<br>something useful.</h2>
           </div>
           <div class="contact-copy">
             <p>
               I'm exploring full-time Software Engineering, Data, and AI roles.
-              If you're building something useful with a strong team, I'd like
-              to hear about it.
+              Tell me what you’re building and where I can help.
             </p>
-            <a class="button button-light" href="mailto:singhharkunwar87@gmail.com">
-              Start a conversation <span>↗</span>
-            </a>
+            <a class="contact-email" href="mailto:singhharkunwar87@gmail.com">singhharkunwar87@gmail.com</a>
+            <div class="contact-actions">
+              <button class="button button-light copy-email" type="button" data-email="singhharkunwar87@gmail.com">
+                Copy email
+              </button>
+              <a class="contact-action" href="mailto:singhharkunwar87@gmail.com">Write an email</a>
+              <a class="contact-action" href="https://www.linkedin.com/in/harkunwar449/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a class="contact-action" href="images/resume.pdf" target="_blank" rel="noreferrer">Résumé</a>
+            </div>
+            <p class="copy-status" role="status" aria-live="polite"></p>
           </div>
         </div>
       </section>
